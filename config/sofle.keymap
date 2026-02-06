@@ -120,11 +120,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &kp LEFT_CONTROL  &kp N   &kp M   &kp COMMA    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &kp LEFT_ALT  &kp LEFT_CONTROL  &kp N   &kp M   &kp COMMA    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
